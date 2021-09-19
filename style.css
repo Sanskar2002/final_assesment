@@ -1,0 +1,167 @@
+.container{
+	background-color: white;
+	display: flex;
+	flex-wrap: wrap;
+	border: 2px solid black;
+	height: auto;
+	justify-content: center;
+	margin: 1em;
+	padding: 1em;
+}
+
+.box1{
+	background-color: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1em;
+	padding: 1em;
+	height: 400px;
+	width: 400px;
+}
+
+.box2{
+	background-color: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 1em;
+	padding: 1em;
+	height: 400px;
+	width: 400px;
+}
+
+.box3{
+	background-color: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: 1em;
+	padding: 1em;
+	height: 400px;
+	width: 400px;
+}
+
+.box11{
+	background-color: aqua;
+	height: 194px;
+	width: 194px;
+}
+
+.box12{
+	background-color: aqua;
+	height: 194px;
+	width: 194px;
+}
+
+.box13{
+	background-color: aqua;
+	height: 194px;
+	width: 194px;
+}
+
+.box14{
+	background-color: aqua;
+	height: 194px;
+	width: 194px;
+}
+
+.box21{
+	background-color: aqua;
+	height: 190px;
+	width: 400px;
+}
+
+.box22{
+	background-color: aqua;
+	height: 190px;
+	width: 400px;
+}
+
+.box31{
+	margin: 0px 200px 0px 0px;
+	background-color: aqua;
+	height: 180px;
+	width: 190px;
+}
+
+.box32{
+	margin: 0px 20px 20px 0px;
+	background-color: white;
+	height: 180px;
+	width: 190px;
+}
+
+h4{
+	text-align: center;
+	color: black;
+}
+
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+	.container{
+		width: 60%;
+	}
+	.box1{
+		width: 60%;
+	}
+	.box2{
+		width: 60%;
+	}
+	.box3{
+		width: 60%;
+	}
+	img{
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 769px){
+	.container{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.container{
+		width: 30%;
+	}
+	.box1{
+		width: 30%;
+	}
+	.box11{
+		height: 30%;
+	}
+	.box2{
+		width: 30%;
+	}
+	.box3{
+		width: 30%;
+	}
+	img{
+		width: 30%;
+	}
+}
